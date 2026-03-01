@@ -3,7 +3,7 @@
     chunks: [
   "static/chunks/Documents_e-shop_app_globals_7c110362.css",
   "static/chunks/Documents_e-shop_de8f31ef._.js",
-  "static/chunks/b774e__pnpm_1a4a8923._.js"
+  "static/chunks/b774e__pnpm_a2254f21._.js"
 ],
     source: "dynamic"
 });
