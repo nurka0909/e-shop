@@ -1,0 +1,1141 @@
+[00:00:00.825] Server  LOG     ✓ Ready in 644ms
+[00:00:01.310] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:01.494] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:01.653] Browser ERROR   uncaughtError: Error: ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:01.695] Browser ERROR   uncaughtError: Error: ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:01.831] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:02.426] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:02.523] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:03.414] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.285] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:08.931] Browser ERROR   unhandledRejection: Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/Documents/e-shop/node_modules/.pnpm/next@16.1.4_@babel+core@7.28.6_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/app.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/Documents/e-shop/pages/_app" }, but the module factory is not available. It might have been deleted in an HMR update.
+[00:00:09.070] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.070] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.405] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.405] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.405] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:09.405] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:07.409] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve 'radix-ui'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import { Dialog as SheetPrimitive } from "radix-ui"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:21.919] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.922] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.922] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.923] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.924] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.924] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.924] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.925] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.925] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.925] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.926] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.926] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.926] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.927] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.928] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.929] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.930] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:21.930] Server  ERROR   ⨯ ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:22.412] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:23.406] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:31.406] Browser ERROR   ./Documents/e-shop/components/ui/sheet.tsx:5:1
+Module not found: Can't resolve '@radix-ui/react-dialog'
+  3 | import * as React from "react"
+  4 | import { XIcon } from "lucide-react"
+> 5 | import * as SheetPrimitive from "@radix-ui/react-dialog"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | import { cn } from "@/lib/utils"
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Client Component Browser]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/e-shop/components/ui/sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/cart-sheet.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Client Component SSR]
+    ./Documents/e-shop/components/navbar.tsx [Server Component]
+    ./Documents/e-shop/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:33.025] Server  LOG     ✓ Compiled in 305ms
+[00:01:34.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:54.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:57.862] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.394] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:02.379] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:03.011] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.151] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:04.885] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:34.627] Server  LOG     ✓ Compiled in 241ms
+[00:03:35.133] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.141] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.146] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.150] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.153] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.185] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.187] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.189] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.194] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.196] Server  WARN    Error: Route "/shop/category/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:35.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:03:36.419] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis

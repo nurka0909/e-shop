@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/b774e_next_dist_compiled_085f55cd._.js",
+      "static/chunks/b774e_next_dist_shared_lib_1508e124._.js",
+      "static/chunks/b774e_next_dist_client_6351972d._.js",
+      "static/chunks/b774e_next_dist_113b1df9._.js",
+      "static/chunks/b774e_next_app_c74cb253.js",
+      "static/chunks/[next]_entry_page-loader_ts_64f44c61._.js",
+      "static/chunks/b774e_react-dom_cf9effd5._.js",
+      "static/chunks/b774e_0bad9ba5._.js",
+      "static/chunks/[root-of-the-server]__c9a89ba0._.js",
+      "static/chunks/Documents_e-shop_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_e-shop_pages__app_aebcce28._.js"
+    ],
+    "/_error": [
+      "static/chunks/b774e_next_dist_compiled_085f55cd._.js",
+      "static/chunks/b774e_next_dist_shared_lib_1508e124._.js",
+      "static/chunks/b774e_next_dist_client_6351972d._.js",
+      "static/chunks/b774e_next_dist_6d833092._.js",
+      "static/chunks/818b1_next_c3b60073._.js",
+      "static/chunks/[next]_entry_page-loader_ts_c399ed07._.js",
+      "static/chunks/b774e_react-dom_cf9effd5._.js",
+      "static/chunks/b774e_0bad9ba5._.js",
+      "static/chunks/[root-of-the-server]__18f48426._.js",
+      "static/chunks/Documents_e-shop_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Documents_e-shop_pages__error_1c3f43c8._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/b774e_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_b8e2e027._.js",
+    "static/chunks/b774e_next_dist_compiled_react-dom_4128415f._.js",
+    "static/chunks/b774e_next_dist_compiled_react-server-dom-turbopack_d10a44a7._.js",
+    "static/chunks/b774e_next_dist_compiled_next-devtools_index_33f016bf.js",
+    "static/chunks/b774e_next_dist_compiled_891525be._.js",
+    "static/chunks/b774e_next_dist_client_b38f8b71._.js",
+    "static/chunks/b774e_next_dist_5bdb9507._.js",
+    "static/chunks/b774e_@swc_helpers_cjs_fbd29e14._.js",
+    "static/chunks/Documents_e-shop_a0ff3932._.js",
+    "static/chunks/turbopack-Documents_e-shop_a94bc48b._.js"
+  ]
+}
