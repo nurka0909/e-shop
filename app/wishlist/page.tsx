@@ -1,19 +1,29 @@
-import React from 'react';
-import Link from 'next/link';
+"use client";
+import { useWishlist } from "@/lib/wishlist-store";
+import { ProductCard } from "@/components/product-card";
+import Link from "next/link";
 
 export default function WishlistPage() {
+  const { wishlist } = useWishlist();
+
   return (
-    <main className="max-w-1440px mx-auto px-10 py-20 text-center">
-      <h1 className="text-2xl font-bold tracking-widest uppercase mb-4">Миний хүсэлтийн жагсаалт</h1>
-      <div className="py-20 border-t border-gray-100 mt-10">
-        <p className="text-gray-500 mb-8 font-light">Таны хүсэлтийн жагсаалт одоогоор хоосон байна.</p>
-        <Link 
-          href="/" 
-          className="inline-block border border-black px-10 py-3 text-xs uppercase tracking-widest hover:bg-black hover:text-white transition"
-        >
-          Дэлгүүр хэсэх
-        </Link>
-      </div>
+    <main className="max-w-7xl mx-auto px-6 py-24 min-h-[70vh]">
+      <h1 className="text-3xl font-serif italic mb-10 text-center uppercase tracking-widest">Хүсэлтийн жагсаалт</h1>
+
+      {wishlist.length === 0 ? (
+        <div className="text-center py-20 space-y-6">
+          <p className="text-slate-400 font-serif italic">Таны хүсэлтийн жагсаалт хоосон байна.</p>
+          <Link href="/shop/category/all" className="inline-block border-b border-black pb-1 text-[11px] uppercase tracking-widest font-bold">
+            Шоппинг хийх
+          </Link>
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {wishlist.map((product) => (
+            <ProductCard key={product.id} {...product} />
+          ))}
+        </div>
+      )}
     </main>
   );
 }
