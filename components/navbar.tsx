@@ -1,7 +1,8 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, User, Heart, X, LogIn, UserPlus, Settings } from "lucide-react";
+import { Search, User, Heart, X, LogIn, UserPlus, Settings, LayoutDashboard } from "lucide-react";
 import { CartSheet } from "@/components/cart-sheet";
 import {
     DropdownMenu,
@@ -16,7 +17,7 @@ import { useWishlist } from "@/lib/wishlist-store";
 
 export default function Navbar() {
     const router = useRouter();
-    const { wishlist } = useWishlist(); // 🔹 Функц дотор дуудав
+    const { wishlist } = useWishlist();
     const [isScrolled, setIsScrolled] = useState(false);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
@@ -39,7 +40,7 @@ export default function Navbar() {
 
     return (
         <>
-            {/* 🔹 1. FULL SCREEN SEARCH OVERLAY */}
+            {/* 🔹 FULL SCREEN SEARCH OVERLAY */}
             {isSearchOpen && (
                 <div className="fixed inset-0 bg-white z-[100] flex flex-col items-center justify-start pt-32 animate-in fade-in zoom-in duration-300">
                     <button
@@ -66,7 +67,6 @@ export default function Navbar() {
                             </button>
                         </form>
 
-                        {/* Quick Links */}
                         <div className="mt-16 flex flex-wrap justify-center gap-x-10 gap-y-4">
                             <span className="text-[10px] uppercase tracking-widest text-slate-300">Түгээмэл:</span>
                             {["Ороолт", "Ноолууран цамц", "Малгай", "Gifts"].map((item) => (
@@ -89,13 +89,13 @@ export default function Navbar() {
             <header className="w-full font-sans fixed top-0 z-50 transition-all duration-300">
                 {/* TOP ANNOUNCEMENT */}
                 <div className={`w-full bg-[#1a1a1a] flex items-center justify-center transition-all duration-500 overflow-hidden ${isScrolled ? "h-0 opacity-0" : "h-9 opacity-100"}`}>
-                    <p className="text-white text-[10px] tracking-[0.3em] font-light uppercase">TEAM2 2026 ond hiij baina!</p>
+                    <p className="text-white text-[10px] tracking-[0.3em] font-light uppercase">TEAM2 2026 - GOYOL CASHMERE</p>
                 </div>
 
                 <div className="w-full bg-white shadow-sm border-b border-gray-50">
                     <div className={`max-w-[1440px] mx-auto px-6 md:px-10 flex items-center justify-between transition-all duration-500 ${isScrolled ? "py-3" : "py-6"}`}>
 
-                        {/* LEFT: SEARCH ICON */}
+                        {/* LEFT: SEARCH */}
                         <div className="flex-1 flex items-center">
                             <button
                                 onClick={() => setIsSearchOpen(true)}
@@ -120,15 +120,25 @@ export default function Navbar() {
                         {/* RIGHT: ICONS */}
                         <div className="flex-1 flex justify-end items-center gap-5 text-black">
 
-                            {/* 🔹 USER DROPDOWN MENU */}
+                            {/* 🔹 USER DROPDOWN WITH ADMIN LINK */}
                             <DropdownMenu>
                                 <DropdownMenuTrigger className="outline-none">
                                     <User size={20} strokeWidth={1.2} className="hover:opacity-50 transition cursor-pointer" />
                                 </DropdownMenuTrigger>
-                                <DropdownMenuContent align="end" className="w-56 mt-4 rounded-none border-slate-100 p-2 bg-white shadow-xl z-[101]">
+                                <DropdownMenuContent align="end" className="w-64 mt-4 rounded-none border-slate-100 p-2 bg-white shadow-2xl z-[101]">
                                     <DropdownMenuLabel className="text-[10px] uppercase tracking-widest text-slate-400 py-2 px-2">
                                         Миний бүртгэл
                                     </DropdownMenuLabel>
+                                    
+                                    <DropdownMenuSeparator />
+                                    
+                                    <DropdownMenuItem asChild>
+                                        <Link href="/admin/add-product" className="flex items-center w-full px-2 py-3 text-[11px] font-bold text-emerald-700 hover:bg-emerald-50 transition-colors cursor-pointer">
+                                            <LayoutDashboard className="mr-3 h-4 w-4" strokeWidth={2} />
+                                            АДМИН: БАРАА НЭМЭХ
+                                        </Link>
+                                    </DropdownMenuItem>
+
                                     <DropdownMenuSeparator />
 
                                     <DropdownMenuItem asChild>
@@ -156,7 +166,7 @@ export default function Navbar() {
                                 </DropdownMenuContent>
                             </DropdownMenu>
 
-                            {/* 🔹 WISHLIST ICON WITH COUNTER */}
+                            {/* 🔹 WISHLIST */}
                             <Link href="/wishlist" className="p-1 hover:opacity-50 transition relative">
                                 <Heart 
                                     size={20} 
@@ -164,7 +174,7 @@ export default function Navbar() {
                                     className={wishlist.length > 0 ? "fill-red-500 text-red-500" : ""} 
                                 />
                                 {wishlist.length > 0 && (
-                                    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[7px] w-3.5 h-3.5 flex items-center justify-center rounded-full font-bold">
+                                    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[7px] w-3.5 h-3.5 flex items-center justify-center rounded-full font-bold animate-in zoom-in">
                                         {wishlist.length}
                                     </span>
                                 )}
@@ -177,9 +187,9 @@ export default function Navbar() {
                     {/* NAV LINKS */}
                     <nav className={`w-full border-t border-gray-100 transition-all duration-500 overflow-hidden ${isScrolled ? "h-0 opacity-0" : "h-auto opacity-100 py-4"}`}>
                         <ul className="flex justify-center items-center gap-8 px-4 flex-wrap text-[10px] uppercase tracking-[0.15em] font-bold text-gray-800">
-                            {["Purchase Guide", "Women's", "Men's", "Kids", "Accessories", "Gift Card", "Sustainability", "News"].map((name) => (
+                            {["Women's", "Men's", "Kids", "Accessories", "Gift Card", "Sustainability"].map((name) => (
                                 <li key={name}>
-                                    <Link href={`/shop/category/${name.toLowerCase().replace("'s", "").replace(" ", "-")}`} className="hover:text-black transition">
+                                    <Link href={`/shop/category/${name.toLowerCase().replace("'s", "").replace(" ", "-")}`} className="hover:text-black transition border-b border-transparent hover:border-black">
                                         {name}
                                     </Link>
                                 </li>
