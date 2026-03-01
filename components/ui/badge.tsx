@@ -1,6 +1,6 @@
 import * as React from "react"
+import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
-import { Slot } from "radix-ui"
 
 import { cn } from "@/lib/utils"
 
@@ -26,23 +26,28 @@ const badgeVariants = cva(
   }
 )
 
-function Badge({
-  className,
-  variant = "default",
-  asChild = false,
-  ...props
-}: React.ComponentProps<"span"> &
-  VariantProps<typeof badgeVariants> & { asChild?: boolean }) {
-  const Comp = asChild ? Slot.Root : "span"
-
-  return (
-    <Comp
-      data-slot="badge"
-      data-variant={variant}
-      className={cn(badgeVariants({ variant }), className)}
-      {...props}
-    />
-  )
+export interface BadgeProps
+  extends React.HTMLAttributes<HTMLSpanElement>,
+    VariantProps<typeof badgeVariants> {
+  asChild?: boolean
 }
+
+const Badge = React.forwardRef<HTMLSpanElement, BadgeProps>(
+  ({ className, variant, asChild = false, ...props }, ref) => {
+    // TypeScript-ийн алдаанаас сэргийлж (Slot as any) ашиглав
+    const Comp = asChild ? (Slot as any) : "span"
+
+    return (
+      <Comp
+        ref={ref}
+        data-slot="badge"
+        data-variant={variant}
+        className={cn(badgeVariants({ variant }), className)}
+        {...props}
+      />
+    )
+  }
+)
+Badge.displayName = "Badge"
 
 export { Badge, badgeVariants }
