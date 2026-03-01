@@ -1,0 +1,32 @@
+# Илүүц сангууд (Хамгийн чухал)
+node_modules/
+.pnpm-store/
+
+# Next.js build-ийн файлууд
+.next/
+out/
+build/
+
+# Орчны хувьсагчид (Нууц мэдээлэл - Firebase Key гэх мэт)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-ийн түр зуурын файлууд
+.DS_Store
+*.pem
+Thumbs.db
+
+# TypeScript болон IDE-ийн тохиргоо
+.vscode/
+.idea/
+*.swp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel-ийн тохиргоо
+.vercel
