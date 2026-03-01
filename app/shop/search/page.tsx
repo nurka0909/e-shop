@@ -1,15 +1,18 @@
 "use client";
+
 import { useSearchParams } from "next/navigation";
 import { ProductCard } from "@/components/product-card";
+import { Suspense } from "react";
 
-// Жишээ дата (Дараа нь энийг Backend-ээс авна)
+// Жишээ дата
 const ALL_PRODUCTS = [
   { id: "1", name: "Ноолууран ороолт", price: 185000, image: "/images/1.webp", category: "women" },
   { id: "2", name: "Ноосон цамц", price: 380000, image: "/images/2.webp", category: "men" },
   // ... бусад бараанууд
 ];
 
-export default function SearchPage() {
+// 1. Хайлтын логикийг тусад нь компонент болгоно
+function SearchContent() {
   const searchParams = useSearchParams();
   const query = searchParams.get("q")?.toLowerCase() || "";
 
@@ -19,7 +22,7 @@ export default function SearchPage() {
   );
 
   return (
-    <main className="max-w-7xl mx-auto px-6 py-24">
+    <div className="max-w-7xl mx-auto px-6 py-24">
       <div className="mb-12">
         <h1 className="text-2xl font-serif italic">
           Хайлтын үр дүн: <span className="text-slate-400">"{query}"</span>
@@ -40,6 +43,23 @@ export default function SearchPage() {
           <p className="text-slate-400 italic font-serif text-lg">Уучлаарай, илэрц олдсонгүй.</p>
         </div>
       )}
+    </div>
+  );
+}
+
+// 2. Үндсэн хуудас (Энд Suspense ашигласнаар Build алдаа арилна)
+export default function SearchPage() {
+  return (
+    <main>
+      <Suspense fallback={
+        <div className="flex items-center justify-center min-h-[400px]">
+          <p className="text-[10px] uppercase tracking-[0.2em] text-slate-400 animate-pulse">
+            Хайж байна...
+          </p>
+        </div>
+      }>
+        <SearchContent />
+      </Suspense>
     </main>
   );
 }
